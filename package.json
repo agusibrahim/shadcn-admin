@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
-    "knip": "knip"
+    "knip": "knip",
+    "create": "node scripts/create.mjs",
+    "create:page": "node scripts/create-page.mjs"
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.42.1",
